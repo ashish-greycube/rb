@@ -86,7 +86,11 @@ app_license = "MIT"
 # 		"on_trash": "method"
 #	}
 # }
-
+doc_events = {
+	"Sales Invoice": {
+		"validate": "rb.api.update_picture_series_value",
+	}
+}
 # Scheduled Tasks
 # ---------------
 
